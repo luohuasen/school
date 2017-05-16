@@ -1,0 +1,8 @@
+com\study\school\web\controller\vo\Teacher.class
+com\study\school\web\controller\HelloController.class
+com\study\school\web\controller\vo\Person.class
+com\study\school\web\controller\PersonController.class
+com\study\school\web\controller\vo\Grade.class
+com\study\school\web\controller\vo\Subject.class
+com\study\school\web\controller\vo\Student.class
+com\study\school\web\controller\vo\Squad.class
