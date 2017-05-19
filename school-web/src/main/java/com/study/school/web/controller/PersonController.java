@@ -17,8 +17,8 @@ public class PersonController{
 
     @RequestMapping("/count")
     @ResponseBody
-    public String say(){
-        personBo.count();
+    public String count(){
+        System.out.println(personBo.count());
         return personBo.count()>0 ? "success" : "false";
     }
 }

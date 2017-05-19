@@ -12,9 +12,11 @@
         <module>school-common</module>
         <module>school-web</module>
         <module>school-biz</module>
-        <module>school-services</module>
-        <module>school-service-api</module>
         <module>school-dao</module>
+        <module>school-services-consumer</module>
+        <module>school-services-provider</module>
+        <module>school-services-facade</module>
+        <module>school-htmls</module>
     </modules>
     <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

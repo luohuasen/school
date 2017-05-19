@@ -6,8 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/school-biz/school-biz.iml" filepath="$PROJECT_DIR$/school-biz/school-biz.iml" />
       <module fileurl="file://$PROJECT_DIR$/school-common/school-common.iml" filepath="$PROJECT_DIR$/school-common/school-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/school-dao/school-dao.iml" filepath="$PROJECT_DIR$/school-dao/school-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/school-service-api/school-service-api.iml" filepath="$PROJECT_DIR$/school-service-api/school-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/school-services/school-services.iml" filepath="$PROJECT_DIR$/school-services/school-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-htmls/school-htmls.iml" filepath="$PROJECT_DIR$/school-htmls/school-htmls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-services-consumer/school-services-consumer.iml" filepath="$PROJECT_DIR$/school-services-consumer/school-services-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-services-facade/school-services-facade.iml" filepath="$PROJECT_DIR$/school-services-facade/school-services-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/school-services-provider/school-services-provider.iml" filepath="$PROJECT_DIR$/school-services-provider/school-services-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/school-web/school-web.iml" filepath="$PROJECT_DIR$/school-web/school-web.iml" />
     </modules>
   </component>

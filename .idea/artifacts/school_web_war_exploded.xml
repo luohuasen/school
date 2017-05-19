@@ -19,8 +19,8 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.0" />
-          <element id="archive" name="school-service-api-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="school-service-api" />
+          <element id="archive" name="school-services-consumer-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="school-services-consumer" />
           </element>
           <element id="archive" name="school-common-1.0-SNAPSHOT.jar">
             <element id="module-output" name="school-common" />

@@ -5,8 +5,12 @@
     <file url="file://$PROJECT_DIR$/school-biz" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/school-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/school-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/school-htmls" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/school-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/school-services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/school-services-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/school-services-facade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/school-services-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/school-web" charset="UTF-8" />
   </component>
 </project>

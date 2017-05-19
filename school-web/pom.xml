@@ -87,7 +87,7 @@
         <!--项目依赖-->
         <dependency>
             <groupId>com.study</groupId>
-            <artifactId>school-service-api</artifactId>
+            <artifactId>school-services-consumer</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>

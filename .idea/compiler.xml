@@ -9,8 +9,10 @@
         <module name="school-biz" />
         <module name="school-common" />
         <module name="school-dao" />
-        <module name="school-service-api" />
-        <module name="school-services" />
+        <module name="school-htmls" />
+        <module name="school-services-consumer" />
+        <module name="school-services-facade" />
+        <module name="school-services-provider" />
         <module name="school-web" />
       </profile>
     </annotationProcessing>
@@ -19,8 +21,12 @@
       <module name="school-biz" target="1.7" />
       <module name="school-common" target="1.7" />
       <module name="school-dao" target="1.7" />
+      <module name="school-htmls" target="1.7" />
       <module name="school-service-api" target="1.7" />
       <module name="school-services" target="1.7" />
+      <module name="school-services-consumer" target="1.7" />
+      <module name="school-services-facade" target="1.7" />
+      <module name="school-services-provider" target="1.7" />
       <module name="school-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
