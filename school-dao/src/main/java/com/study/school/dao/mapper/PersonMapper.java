@@ -30,4 +30,6 @@ public interface PersonMapper {
     int updateByPrimaryKey(Person record);
 
     int count();
+
+    List<Person> list();
 }
