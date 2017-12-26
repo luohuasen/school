@@ -8,33 +8,41 @@ import java.util.concurrent.RecursiveTask;
  * @Date: Created in 2017/12/18 15:15
  */
 public class SumTask extends RecursiveTask<Long>{
-    private int num;
-    private String name;
-    private String worlds;
+    private String threadName;
+    private String taskName;
+    private boolean deleted = false;
     @Override
     protected Long compute() {
+        threadName = Thread.currentThread().getName() + ": ";
+        System.out.println(threadName + taskName + " 开始执行");
         long sum = 0;
-        for (int i = 0; i < num; i++) {
+        for (int i = 0; i < 10000000; i++) {
             sum += i;
         }
         return sum;
     }
 
     public SumTask(int index){
-        name = "task_" + index;
-        this.num = (int)(Math.random()*10000000);
-        worlds = name + "执行完成！  计算数量 ： " + num;
+        taskName = "task_" + index;
     }
 
-    public int getNum() {
-        return num;
+    public String getThreadName() {
+        return threadName;
     }
 
-    public String getName() {
-        return name;
+    public String getTaskName() {
+        return taskName;
     }
 
     public void end(){
-        System.out.println(worlds);
+        System.out.println(threadName + taskName + " 结束执行");
+    }
+
+    public boolean isDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
     }
 }
